@@ -5,15 +5,14 @@ Utility function for binding an array of arguments to a function. Same as `apply
 ## Usage
 
 ```javascript
-    var bindArray = require("bind-array");
+var bindArray = require("bind-array");
 
-    function foo(a, b, c, d, e) {
-        console.log(this, a, b, c, d, e)
-    }
-
-    var bound = bindArray(foo, "this arg", [1, 2, 3, 4, 5]);
-    bound(); // prints "this arg", 1, 2, 3, 4, 5
+function foo(a, b, c, d, e) {
+    console.log(this, a, b, c, d, e)
 }
+
+var bound = bindArray(foo, "this arg", [1, 2, 3, 4, 5]);
+bound(); // prints "this arg", 1, 2, 3, 4, 5
 ```
 
 ## API
