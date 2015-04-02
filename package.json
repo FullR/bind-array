@@ -13,5 +13,9 @@
     "application"
   ],
   "author": "James Meyers",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FullR/bind-array.git"
+  }
 }
