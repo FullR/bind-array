@@ -18,4 +18,4 @@ Utility function for binding an array of arguments to a function. Same as `apply
 
 ## API
 
-'bindArray(fn:function, thisArg:any, args:array or args:arguments) : function'
+`bindArray(fn:function, thisArg:any, args:array or args:arguments) : function`
