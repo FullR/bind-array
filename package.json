@@ -1,0 +1,17 @@
+{
+  "name": "bind-array",
+  "version": "1.0.0",
+  "description": "Utility function for binding an array of arguments to a function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utility",
+    "bind",
+    "partial",
+    "application"
+  ],
+  "author": "James Meyers",
+  "license": "ISC"
+}
